@@ -1,0 +1,47 @@
+{
+  "name": "Alat_Barang",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Kode_Barang": {
+      "type": "string",
+      "required": true
+    },
+    "Nama_Barang": {
+      "type": "string",
+      "required": true
+    },
+    "Satuan_Barang": {
+      "type": "string",
+      "required": true
+    },
+    "Jumlah_Barang": {
+      "type": "number",
+      "required": true
+    },
+    "Status_Barang": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}

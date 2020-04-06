@@ -1,0 +1,65 @@
+{
+  "name": "Anggota",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Kode_Anggota": {
+      "type": "string",
+      "required": true
+    },
+    "Nama_Anggota": {
+      "type": "string",
+      "required": true
+    },
+    "Alamat_Anggota": {
+      "type": "string",
+      "required": true
+    },
+    "Nohp_anggota": {
+      "type": "string",
+      "required": true
+    },
+    "Umur_Anggota": {
+      "type": "number",
+      "required": true
+    },
+    "Jenis_Kelamin": {
+      "type": "string",
+      "required": true
+    },
+    "Shift_anggota": {
+      "type": "string",
+      "required": true
+    },
+    "Status_Anggota": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "transaksis": {
+      "type": "hasMany",
+      "model": "Transaksi",
+      "foreignKey": ""
+    }
+  },
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}
