@@ -6,26 +6,27 @@
     "validateUpsert": true
   },
   "properties": {
-    "Nama_Catalog_Transaksi": {
+    "nama_catalog_transaksi": {
       "type": "string",
       "required": true
     },
-    "Nama_Aggota_Transaksi": {
+    "nama_aggota_transaksi": {
       "type": "string",
       "required": true
     },
-    "Total_Harga": {
+    "total_harga": {
       "type": "number",
       "required": true
     },
-    "Diskon": {
-      "type": "number"
-    },
-    "Total_Harga_Akhir": {
+    "diskon": {
       "type": "number",
-      "required": true
+      "required": false
     },
-    "Tanggal_Transaksi": {
+    "total_harga_akhir": {
+      "type": "number",
+      "required": false
+    },
+    "tanggal_transaksi": {
       "type": "date",
       "required": true
     }

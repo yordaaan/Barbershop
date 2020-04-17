@@ -6,19 +6,19 @@
     "validateUpsert": true
   },
   "properties": {
-    "Kode_Catalog": {
+    "kode_catalog": {
       "type": "string",
       "required": true
     },
-    "Nama_Catalog": {
+    "nama_catalog": {
       "type": "string",
       "required": true
     },
-    "Harga_Catalog": {
+    "harga_catalog": {
       "type": "number",
       "required": true
     },
-    "Status_Catalog": {
+    "status_catalog": {
       "type": "string",
       "required": true
     }

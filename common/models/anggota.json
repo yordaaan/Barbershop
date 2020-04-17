@@ -10,31 +10,31 @@
       "type": "string",
       "required": true
     },
-    "Nama_Anggota": {
+    "nama_anggota": {
       "type": "string",
       "required": true
     },
-    "Alamat_Anggota": {
+    "alamat_anggota": {
       "type": "string",
       "required": true
     },
-    "Nohp_anggota": {
+    "nohp_anggota": {
       "type": "string",
       "required": true
     },
-    "Umur_Anggota": {
+    "umur_anggota": {
       "type": "number",
       "required": true
     },
-    "Jenis_Kelamin": {
+    "jenis_kelamin": {
       "type": "string",
       "required": true
     },
-    "Shift_anggota": {
+    "shift_anggota": {
       "type": "string",
       "required": true
     },
-    "Status_Anggota": {
+    "status_anggota": {
       "type": "string",
       "required": true
     }

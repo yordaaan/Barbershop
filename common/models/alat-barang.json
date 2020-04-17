@@ -6,23 +6,23 @@
     "validateUpsert": true
   },
   "properties": {
-    "Kode_Barang": {
+    "kode_barang": {
       "type": "string",
       "required": true
     },
-    "Nama_Barang": {
+    "nama_barang": {
       "type": "string",
       "required": true
     },
-    "Satuan_Barang": {
+    "satuan_barang": {
       "type": "string",
       "required": true
     },
-    "Jumlah_Barang": {
+    "jumlah_barang": {
       "type": "number",
       "required": true
     },
-    "Status_Barang": {
+    "status_barang": {
       "type": "string",
       "required": true
     }

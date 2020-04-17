@@ -1,4 +1,4 @@
-{
+{ 
   "name": "Admin",
   "base": "User",
   "idInjection": true,
@@ -6,19 +6,15 @@
     "validateUpsert": true
   },
   "properties": {
-    "Nama_Lengkap": {
+    "nama_lengkap": {
       "type": "string",
       "required": true
     },
-    "Username": {
+    "password": {
       "type": "string",
       "required": true
     },
-    "Password": {
-      "type": "string",
-      "required": true
-    },
-    "Re_Password": {
+    "re_password": {
       "type": "string",
       "required": true
     }
