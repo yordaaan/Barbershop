@@ -20,7 +20,7 @@
     },
     "status_catalog": {
       "type": "string",
-      "required": true
+      "required": false
     }
   },
   "validations": [],
